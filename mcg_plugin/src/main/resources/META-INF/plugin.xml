@@ -1,0 +1,19 @@
+<idea-plugin>
+    <id>com.smartfox</id>
+    <name> Coding Guidelines</name>
+    <description>陌陌代码规范实时检测，针对我们组内自定义的一些规范进行检测，比如Color.parseColor</description>
+
+    <change-notes>
+      无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新无更新
+    </change-notes>
+    <vendor>aaa</vendor>
+    <version>3.0.0</version>
+    <idea-version since-build="145.0"/>
+    <depends optional="true">com.intellij.velocity</depends>
+    <depends optional="true" config-file="p3c.xml">com.intellij.modules.java</depends>
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <depends>com.intellij.modules.vcs</depends>
+    <depends>com.intellij.modules.xml</depends>
+    <depends>com.intellij.modules.xdebugger</depends>
+</idea-plugin>

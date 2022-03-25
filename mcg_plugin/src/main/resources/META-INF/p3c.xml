@@ -1,0 +1,13 @@
+<idea-plugin>
+    <actions>
+        <action class="action.ToggleProjectInspectionAction" id="ToggleProjectInspectionAction"
+                popup="true" text="关闭检测" icon="P3cIcons.PROJECT_INSPECTION_OFF">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+    </actions>
+    <extensions defaultExtensionNs="com.intellij">
+        <applicationService serviceImplementation="config.P3cConfig"/>
+        <projectService serviceImplementation="config.SmartFoxProjectConfig"/>
+        <inspectionToolProvider implementation="inspection.AALocalInspectionToolProvider"/>
+    </extensions>
+</idea-plugin>
